@@ -37,7 +37,8 @@ while True:
         print('TIME IS UP!')
         break
 
-    if list(response) == quiz.sort():
+    quiz.sort()
+    if list(response) == quiz:
         print('Correct!')
     else:
         print('Wrong!')
